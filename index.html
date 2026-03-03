@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah & James - Wedding Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">S & J</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#rsvp" class="btn-nav">RSVP</a></li>
+            </ul>
+            <button class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <span class="close-menu"><i class="fa-solid fa-xmark"></i></span>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+    </div>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="subtitle">Join us to celebrate the wedding of</p>
+            <h1>Sarah & James</h1>
+            <p class="date">Saturday, September 24, 2026</p>
+
+            <div class="countdown" id="countdown">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+
+            <a href="#rsvp" class="btn-primary mt-2">RSVP Now</a>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="details" class="section details-section">
+        <div class="container text-center">
+            <h2 class="section-title">The Details</h2>
+            <div class="flower-divider"><i class="fa-solid fa-leaf"></i></div>
+
+            <div class="details-grid">
+                <div class="detail-card">
+                    <i class="fa-regular fa-clock icon-large"></i>
+                    <h3>When</h3>
+                    <p>Saturday, September 24th, 2026</p>
+                    <p>Ceremony starts at 3:00 PM</p>
+                    <p>Reception to follow</p>
+                </div>
+                <div class="detail-card">
+                    <i class="fa-solid fa-location-dot icon-large"></i>
+                    <h3>Where</h3>
+                    <p><strong>The Grand Botanical Gardens</strong></p>
+                    <p>123 Floral Avenue</p>
+                    <p>Springfield, ST 12345</p>
+                    <a href="#" class="link-styled">View Map</a>
+                </div>
+                <div class="detail-card">
+                    <i class="fa-solid fa-wine-glass icon-large"></i>
+                    <h3>Dress Code</h3>
+                    <p>Formal / Black Tie Optional</p>
+                    <p>Ladies: Floor-length gowns or formal cocktail dresses.</p>
+                    <p>Gentlemen: Tuxedos or dark formal suits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule / Timeline Section -->
+    <section id="schedule" class="section schedule-section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Event Timeline</h2>
+            <div class="flower-divider"><i class="fa-solid fa-leaf"></i></div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Welcome Drinks</h3>
+                        <span class="time">2:30 PM - 3:00 PM</span>
+                        <p>Arrive early, mingle, and enjoy a refreshing pre-ceremony beverage.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>The Ceremony</h3>
+                        <span class="time">3:00 PM - 4:00 PM</span>
+                        <p>Join us in the Rose Garden as we exchange our vows and say "I do."</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Cocktail Hour</h3>
+                        <span class="time">4:00 PM - 5:30 PM</span>
+                        <p>Enjoy signature cocktails and hors d'oeuvres on the terrace while we take some photos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Dinner & Speeches</h3>
+                        <span class="time">6:00 PM - 8:00 PM</span>
+                        <p>A three-course dinner will be served in the Grand Ballroom, followed by toasts from our loved
+                            ones.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Dancing & Party</h3>
+                        <span class="time">8:00 PM - Midnight</span>
+                        <p>Bring your dancing shoes! We'll have a live band followed by a DJ to keep the party going.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title text-center">Our Memories</h2>
+            <div class="flower-divider"><i class="fa-solid fa-leaf"></i></div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Couple 1"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Wedding Rings"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Couple 2"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Couple 3"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Wedding Cake"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Decor"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="section rsvp-section bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Are You Attending?</h2>
+            <div class="flower-divider"><i class="fa-solid fa-leaf"></i></div>
+            <p class="rsvp-text">Please kindly respond by August 1st, 2026.</p>
+
+            <div class="rsvp-form-container">
+                <form id="rsvpForm" class="rsvp-form" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="fullName" placeholder="Full Name" required>
+                        <span class="error-msg" id="nameError">Please enter your name</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                        <span class="error-msg" id="emailError">Please enter a valid email</span>
+                    </div>
+                    <div class="form-group">
+                        <select id="guestCount" required>
+                            <option value="">Number of Guests</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4+</option>
+                        </select>
+                        <span class="error-msg" id="guestError">Please select number of guests</span>
+                    </div>
+
+                    <div class="form-group attendance-group">
+                        <p class="radio-label">Will you be attending?</p>
+                        <div class="radio-options">
+                            <label class="radio-container">
+                                <input type="radio" name="attendance" value="yes" required>
+                                <span class="checkmark"></span>
+                                Joyfully Accept
+                            </label>
+                            <label class="radio-container">
+                                <input type="radio" name="attendance" value="no">
+                                <span class="checkmark"></span>
+                                Regretfully Decline
+                            </label>
+                        </div>
+                        <span class="error-msg" id="attendanceError">Please select your attendance</span>
+                    </div>
+
+                    <button type="submit" class="btn-primary w-100">Send RSVP</button>
+                </form>
+
+                <!-- Success Message -->
+                <div id="successMessage" class="success-message hidden">
+                    <i class="fa-regular fa-circle-check icon-large mb-1"></i>
+                    <h3>Thank You!</h3>
+                    <p>Your RSVP has been successfully received.</p>
+                    <p>We look forward to sharing our special day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2>S & J</h2>
+            <p>For any questions, please contact us at:</p>
+            <p><a href="mailto:hello@sarahandjames.com" class="link-styled">hello@sarahandjames.com</a></p>
+            <div class="social-links mt-2">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Sarah & James. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox"><i class="fa-solid fa-xmark"></i></span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
